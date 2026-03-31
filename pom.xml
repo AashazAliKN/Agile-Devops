@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion> 
  
   <groupId>com.bookstore</groupId> 
-  <artifactId>online-book-store</ar factId> 
+  <artifactId>online-book-store</artifactId> 
   <version>1.0</version> 
  
   <packaging>jar</packaging> 
