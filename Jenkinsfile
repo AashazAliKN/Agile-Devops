@@ -1,19 +1,15 @@
-pipeline {
-    agent any
-
-    stages {
-
-        stage('Clone Repository') {
-            steps {
-                checkout scm
-            }
-        }
-
-        stage('Build Successful') {
-            steps {
-                echo 'Dobbr frontend loaded successfully!'
-            }
-        }
-
-    }
+tools { 
+    maven 'Maven3' 
+} 
+ 
+stage('Verify Maven') { 
+    steps { 
+        bat 'mvn -version' 
+    } 
+} 
+ 
+stage('Maven Build') { 
+    steps { 
+        bat 'mvn clean install' 
+    } 
 }
