@@ -1,0 +1,11 @@
+<project xmlns="h p://maven.apache.org/POM/4.0.0"> 
+  <modelVersion>4.0.0</modelVersion> 
+ 
+  <groupId>com.bookstore</groupId> 
+  <ar factId>online-book-store</ar factId> 
+  <version>1.0</version> 
+ 
+  <packaging>jar</packaging> 
+ 
+  <name>Online Book Store</name> 
+</project>
